@@ -9,8 +9,6 @@ package lsystems;
  *
  */
 public abstract class LRule {
-
-	
 	/**
 	 * 
 	 * Returns the character which this rules matches
@@ -18,7 +16,6 @@ public abstract class LRule {
 	 * @return the character the rule matches
 	 */
 	public abstract char getMatch();
-	
 	/**
 	 * 
 	 * Returns the array of characters produced by the rule
@@ -26,5 +23,4 @@ public abstract class LRule {
 	 * @return the array of characters produced
 	 */
 	public abstract char[] getBody();
-	
 }
