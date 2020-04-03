@@ -14,7 +14,8 @@ public class A_AATest {
 
 	@Test
 	public void testGetBody() {
-		A_AA a = new A_AA();
-		assertEquals("testing match","AA",a.getBody()); 	}
+		A_BC a = new A_BC();
+		char [] list = a.getBody(); 		 
+		assertEquals('A', list[0]);  	}
 
 }
